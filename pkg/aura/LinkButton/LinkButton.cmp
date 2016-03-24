@@ -1,0 +1,8 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="url" type="String" default="http://www.google.com" access="global" />
+    <aura:attribute name="title" type="String" default="Button" access="global"/>
+    
+    <a href="{!v.url}" class="proxy-button">
+        {!v.title}
+    </a>
+</aura:component>

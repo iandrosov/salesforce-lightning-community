@@ -1,0 +1,14 @@
+.THIS.proxy-button {
+	background-color: #f44336; /* RED */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.THIS.proxy-button:hover {
+	background-color: #f44336; /* Red */
+    color: white;
+}
